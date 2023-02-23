@@ -1,0 +1,206 @@
+body{
+    background-image: url('newb.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#info{
+    padding: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#ipllogo{
+    height: 60px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+#ipllogo:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+#hi{
+    margin-top: 15px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    margin-right: 40px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+.naverbar a:hover{
+    text-decoration: none;
+    color: orange;
+}
+header{
+    font-size: x-large;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.485);
+}
+#allstats{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#allstats img{
+    height: 250px;
+}
+#s1,#s2,#s3,#s4 {
+    text-align: center;
+    display: inline-block;
+    max-width: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#s1{
+    background-color: rgb(115, 0, 255);
+}
+#s2{
+    
+    background-color: rgb(30, 0, 255);
+}
+#s3{
+    background-color: rgb(30, 0, 255);
+}
+#s4{
+    background-color: rgb(255, 136, 0);
+}
+#s1:hover,#s2:hover,#s3:hover,#s4:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s; 
+    box-shadow: 5px 5px 40px white; 
+}
+#team{
+    background-color: white;
+    text-align: center;
+}
+
+#team img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+#team img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+}
+#merch img{
+    height:200px ;
+    width: 170px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#merch img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+button{
+    font-size: medium;
+    border-radius: 90px;
+    border: none;
+    padding: 20px;
+    margin-left: 150px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+button:hover{
+    transform: scale(1.25);
+    transition-duration: 0.6s;
+}
+#next{
+    padding: 25px;
+    border-radius: 40px;
+    margin-left: 0px;
+}
+#cost{
+    font-size: 60%;
+}
+#trans{
+    background-color: white;
+    border-radius: 35px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+}
+.container h1{
+    text-align: center;
+}
+
+#trans img{
+    height: 40px;
+    width: 62px;
+}
+#confirm{
+    padding: 10px;
+    margin-left: 0px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+}
+#confirm:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+.card{
+    padding: 30px;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card-title{
+    font-size: x-large;
+}
+#cost{
+    font-size: x-large;
+}
+
+#addto{
+    padding: 15px 60px;
+    margin: auto;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 25px black;
+
+}
+#addto:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    box-shadow: 5px 5px 45px black;
+}
+
+#mi,#rcb,#csk,#rr,#pjb,#kkr{
+    display:inline-block;
+}
+#merch{
+    text-align: center;
+}
